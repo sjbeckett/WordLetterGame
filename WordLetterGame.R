@@ -1,6 +1,6 @@
 
 WordLetterGame <- function(){
-WORDS=c("boat","coat","list","just","helm","cake","lake","bake","rake","take","fake","wake","make","kale","dale","bail","fail","rail","mail","nail","hail","tail","bean","mean","dean","male","gale","cyst","frog","slog","dogs","bogs","logs","cogs","hogs","jogs","bats","cats","mats","mast","rats","beat","heat","neat","meat","hate","rate","star","bars","bare","bear","rare","rear","ruts","rust","lust","lute","cute","dude","whos","bird","curd","bugs","hugs","lugs","mugs","jugs","rugs","lump","dump","hump","bump","rump","jump","clue","drug","died","hide","side","bide","ride","wide","herd","puds","ford","cord","lord","buck","duck","ruck","hulk","bulk","tram","plan","rant","math","mode","worm","node","tote") #100 words that serve as solutions.
+WORDS=c("boat","coat","list","just","helm","cake","lake","bake","hake","take","fake","wake","make","kale","dale","bail","fail","rail","mail","nail","hail","tail","bean","mean","dean","male","gale","cyst","frog","slog","dogs","bogs","logs","cogs","hogs","jogs","bats","cats","mats","mast","rats","beat","heat","neat","meat","hate","rate","star","bars","bare","bear","rake","rear","ruts","rust","lust","lute","cute","dude","whos","bird","curd","bugs","hugs","lugs","mugs","jugs","rugs","lump","dump","hump","bump","rump","jump","clue","drug","died","hide","side","bide","ride","wide","herd","puds","ford","cord","lord","buck","duck","ruck","hulk","bulk","tram","plan","rant","math","mode","worm","node","tome") #100 words that serve as solutions.
 
 #choose word
 CHOSEN = sample(WORDS,1)
